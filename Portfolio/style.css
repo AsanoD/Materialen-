@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a{
+    color: #0D45AE;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+/* Nav */
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.main-nav img{
+    margin-top: 8px;
+}
+.main-nav ul{
+    display: flex;
+}
+.main-nav ul li{
+    padding: 0 10px;
+}
+.main-nav ul li a:hover{
+    border-bottom: 2px solid #0D45AE;
+}
+.main-nav ul.main-menu {
+    flex: 1;
+    margin-left: 30px;
+}
+/* Plaatjes*/
+.plaatje{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.8)),url(./img/banner.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+.plaatje h2{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.plaatje p{
+    font-size: 25px;
+}
+.plaatje2{
+    width: 100%;
+    height: 400px;
+    background: url('./img/phone2.jpeg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+.plaatje2 h2{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.plaatje2 p{
+    font-size: 25px;
+}
+.plaatje3{
+    width: 100%;
+    height: 400px;
+    background: url('./img/bijlage/DF0FFC8D-F93C-4978-831B-4450C267D6CA.JPG') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: center;
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+.plaatje3 h2{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.plaatje3 p{
+    font-size: 25px;
+}
+/* Skills */
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15%;
+    grid-gap: 50px;
+    text-align: center;
+}
+.skill img{
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+.skill a{
+    display: inline-block;
+    padding-top: 5px;
+    color: #0067b9;
+    font-weight: bold;
+}
+.skill a:hover i{
+    margin-left: 10px;
+}
+/* Hoofd */
+.hoofd{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    margin-top: 20%;
+}
+.hoofd img{
+    border-radius: 50%;
+    margin-left: 70px;
+}
+.hoofd h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.hoofd p{
+    font-size: 20px;
+}
+/* Sales */
+.sales{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 75px;
+    margin-top: 20%;
+}
+.sales img{
+    border-radius: 50%;
+}
+.sales h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.sales p{
+    font-size: 18px;
+}
+/* Contact */
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15%;
+    grid-gap: 50px;
+    text-align: center;
+}
+.contact img{
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+.contact a{
+    display: inline-block;
+    padding-top: 5px;
+    color: #0067b9;
+    font-weight: bold;
+}
+.contact a:hover i{
+    margin-left: 10px;
+}
+/* Foto */
+.gallerij{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15%;
+    grid-gap: 50px;
+    text-align: center;
+}
+.gallerij img{
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+/* Footer */
+.footer{
+    background: #F7F7F7;
+    color: #555555;
+    font-size: 17px;
+    padding: 20px 0;
+    margin-top: 20%;
+}
+.inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer div{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer li{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
